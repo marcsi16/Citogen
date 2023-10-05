@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Excel Processing Tool</title>
+    <link rel="stylesheet" type="text/css" href="C:/Users/ACER/Documents/Citogenetika/Python/VarseqtoXL/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Excel Processing Tool</h1>
+        <div class="input-group">
+            <label for="sourceFile">Source Excel File:</label>
+            <input type="file" id="sourceFile" accept=".xlsx, .xls" placeholder="Select source file..." readonly>
+            <button id="browseSource">Browse</button>
+            <p id="selectedSourceFilePath"></p>
+        </div>
+        <div class="input-group">
+            <label for="destinationFile">Destination Excel File:</label>
+            <input type="file" id="destinationFile" placeholder="Select destination file..." readonly>
+            <button id="browseDestination">Browse</button>
+            <p id="selectedDestFilePath"></p>
+        </div>
+        <button id="startButton">Start</button>
+    </div>
+    <script src="GUI.js"></script>
+</body>
+</html>

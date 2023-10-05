@@ -1,0 +1,11 @@
+{
+  "name": "varseqtoxl",
+  "version": "1.0.0",
+  "description": "Copies data from excel file to another after specific formattting of the source file.",
+  "main": "GUI.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marianna Nagy-Schwendtner",
+  "license": "ISC"
+}
